@@ -36,12 +36,12 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="498" column="39" lean-forward="false" selection-start-line="498" selection-start-column="39" selection-end-line="498" selection-end-column="39" />
+            <state relative-caret-position="169">
+              <caret line="598" column="13" lean-forward="false" selection-start-line="598" selection-start-column="13" selection-end-line="598" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#33865#33872#0" expanded="true" />
-                <element signature="e#35023#35030#0" expanded="true" />
+                <element signature="e#33858#33865#0" expanded="true" />
+                <element signature="e#35016#35023#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -268,12 +268,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="498" column="39" lean-forward="false" selection-start-line="498" selection-start-column="39" selection-end-line="498" selection-end-column="39" />
+        <state relative-caret-position="169">
+          <caret line="598" column="13" lean-forward="false" selection-start-line="598" selection-start-column="13" selection-end-line="598" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#33865#33872#0" expanded="true" />
-            <element signature="e#35023#35030#0" expanded="true" />
+            <element signature="e#33858#33865#0" expanded="true" />
+            <element signature="e#35016#35023#0" expanded="true" />
           </folding>
         </state>
       </provider>

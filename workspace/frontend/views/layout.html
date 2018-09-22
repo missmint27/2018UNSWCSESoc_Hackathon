@@ -149,7 +149,7 @@
                             <div class="down-four">
                                 <table class="table-six-heri-right table-border">
                                     <tr class="table-border six-width">
-                                        <td class="table-border" onclick='myFunction(this)' id="39"
+                                        <td class="table-border" onclick='mye(this)' id="39"
                                             data-toggle="modal" data-target="#myModal1"
                                             style="background-color: yellow;">39</td>
                                         <td class="table-border" onclick='myFunction(this)' id="40">40</td>
@@ -554,26 +554,22 @@
 <script>
 
 
+
+
     function myFunction(x) {
         if(x.style.backgroundColor =="rgb(204, 0, 0)" ){
              alert("This seat has been booked.");
 
 
 
-        }
-        else if(x.style.backgroundColor == "yellow"){
-           $('#id').val(x.id);
-           $('#id').innerHTML = x.id;
-
-           //document.getElementById("id").innerHTML = x.id;
 
         }
+
 
         else{
             x.style.backgroundColor = "#cc0000"
             $('#iid').val(x.id);
-
-             $('#myModal').modal();
+            $('#myModal').modal();
 
     
 
@@ -582,14 +578,30 @@
 
     }
 
+
     function doaction() {
+
          //$('#myModal1').modal("hide");
        var value = document.getElementById("id").value;
         document.getElementById(value).style.backgroundColor = "green";
+        $('#myModal1').modal("hide");
+
     }
     function re() {
         var value = document.getElementById("id").value;
          document.getElementById(value).style.backgroundColor = "#cc0000";
+    }
+
+    function mye(x) {
+         if(x.style.backgroundColor == "yellow"){
+           $('#id').val(x.id);
+           $('#id').innerHTML = x.id;
+             
+           //document.getElementById("id").innerHTML = x.id;
+
+        }
+
+
     }
 
 
