@@ -43,7 +43,7 @@ td{
   height: 80%;
   text-align: center;
   background-color: #ffffff;
-  margin-top: 0%;
+  margin-top: -10px;
   margin-left: 10%;
   border:1px solid #fff;
   box-shadow: 5px 5px 5px #888888;
@@ -198,7 +198,9 @@ td{
   .p-green{
     color: green;
   }
-
+  .p-yellow{
+    color: yellow;
+  }
 
 /*-------------------------------------------*/
 /*  Welcome page  */
@@ -226,6 +228,13 @@ td{
   width: 15%;
 }
 
+/*------*/
 
+.he_ne{
+  font-size: 28px;
+  color: #ffcc00;
+  margin: 0;
+  margin-top: -10px;
+}
 
                   
