@@ -93,7 +93,6 @@ body{
   height: 40%;
   width: 100%;
   background-color: #fff;
-  border:2px solid #fff;
 }
 .down-three{
   height: 20%;
@@ -104,12 +103,12 @@ body{
 .left-up{
   width: 100%;
   height: 60%;
+  border-left: 2px solid #999999;
 }
 .left-down{
   width: 100%;
   height: 40%;
   background-color: #fff;
-  border:2px solid #fff;
 }
 .up-two{
   display: inline-block;
