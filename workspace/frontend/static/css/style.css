@@ -34,7 +34,6 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: #cccccc;
-
 }
 .pgs{
   width:80%;
@@ -198,7 +197,30 @@ body{
   }
 
 
-
+/*-------------------------------------------*/
+/*  Welcome page  */
+.wel-bg{
+  background-repeat:no-repeat;
+  width: 100vw; 
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+}
+.login-form{
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 12%;
+}
+.wel-name{
+  font-size: 30px;
+  color: white;
+}
+.input-form{
+  height: 3rem;
+}
+.log-button{
+  width: 15%;
+}
 
 
 
