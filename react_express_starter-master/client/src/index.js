@@ -1,8 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import { BrowserRouter, Route , Switch } from 'react-router-dom'
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//import routers
+import LoginPage from './Pages/loginPage';
+
+// import NotFound from './Pages/notFound';    //TODO : 404 bug need to fix
+
+
+//routers controller
+const AppRouter = () => 
+    <BrowserRouter>
+        <Switch>
+            <Route exact path = '/' component = {LoginPage} />
+            {/* <Route exact path="/studentprofile" component={StudentProfilePage} /> */}
+            {/* <Route component= {NotFound} /> */}
+        </Switch>
+    </BrowserRouter>
+
+
+ReactDOM.render(
+    <AppRouter />, document.getElementById('root')
+)
+
 registerServiceWorker();
