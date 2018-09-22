@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 
 //import routers
 import LoginPage from './Pages/loginPage';
+import HomePage from './Pages/homePage';
 
 // import NotFound from './Pages/notFound';    //TODO : 404 bug need to fix
 
@@ -14,7 +15,7 @@ const AppRouter = () =>
     <BrowserRouter>
         <Switch>
             <Route exact path = '/' component = {LoginPage} />
-            {/* <Route exact path="/studentprofile" component={StudentProfilePage} /> */}
+            <Route exact path="/home" component={HomePage} />
             {/* <Route component= {NotFound} /> */}
         </Switch>
     </BrowserRouter>
