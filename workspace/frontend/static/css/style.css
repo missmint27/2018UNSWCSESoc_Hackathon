@@ -10,6 +10,9 @@ body{
   background-color: #fff; 
   color: #999999;
 }
+td{
+  cursor: pointer;
+}
 .container {
   width: 100%;
   padding-right: 15px;
@@ -205,6 +208,7 @@ body{
   height: 100vh;
   position: fixed;
   background-size: cover;
+  z-index:-1;
 }
 .login-form{
   margin-left: 18%;

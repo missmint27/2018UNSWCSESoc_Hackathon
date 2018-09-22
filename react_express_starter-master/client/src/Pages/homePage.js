@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import '../css/style.css';
 
 class homePage extends Component {
+
+  onClick(type) {
+    console.log(type);
+  }
+
   render() {
     return (
       <div>
@@ -34,7 +39,7 @@ class homePage extends Component {
                             <div className="corner">
                                 <table className="table-four-left table-border">
                                     <tr className="table-border">
-                                        <td className="table-border">1</td>
+                                        <td className="table-border" onClick={this.onClick.bind(this,1)} style={{'background-color': 'red'}}>1</td>
                                         <td className="table-border">2</td>
                                     </tr>
                                     <tr className="table-border">
