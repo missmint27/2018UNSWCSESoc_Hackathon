@@ -103,6 +103,9 @@ body{
   background-color: #fff;
   border:2px solid #fff;
 }
+.down-left-border{
+  border-left: 2px solid #999999;
+}
 .left-up{
   width: 100%;
   height: 60%;
@@ -124,6 +127,9 @@ body{
   height: 25%;
   background-color: #fff;
   border:2px solid #fff;
+}
+.bg-dark{
+  background-color: #666666;
 }
 /*-----------------*/
 .table-border{
@@ -176,6 +182,20 @@ body{
   margin-top: 12% ;
 }
 
+/*************************************/
+.label{
+  margin-top: 40px;
+}
+  .label p{
+    font-size: 15px;
+    text-align: center;
+  }
+  .p-red{
+    color: red;
+  }
+  .p-green{
+    color: green;
+  }
 
 
 
