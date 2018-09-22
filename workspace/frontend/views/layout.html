@@ -35,8 +35,8 @@
                                 <table class="table-four-left table-border">
                                     <tr class="table-border">
 
-                                        <td class="table-border"  onclick='myFunction(this)' >1</td>
-                                        <td class="table-border"  onclick='myFunction(this)' >2</td>
+                                        <td class="table-border" data-toggle="modal" data-target="#myModal" >1</td>
+                                        <td class="table-border" data-toggle="modal" data-target="#myModal" onclick='myFunction(this)' >2</td>
 
                                     </tr>
                                     <tr class="table-border">
@@ -476,6 +476,35 @@
 
 
         </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        Alert
+                    </h4>
+                </div>
+
+
+                <div class="modal-body">
+                    <input type="text" id="iid" name="iid" value=""/>
+
+                    You would like choose this option?
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Choose another one
+                    </button>
+                    <button type="button" class="btn btn-primary" onclick="send(id.value)" >
+                        Yes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -487,11 +516,20 @@
     </body>
 </html>
 <script>
-    var setoff = 0;
+
 
     function myFunction(x) {
         if(x.style.backgroundColor =="rgb(204, 0, 0)" ){
              alert("This seat has been booked.");
+
+
+
+        }
+        else{
+            x.style.backgroundColor = "#cc0000"
+            $('#iid').val("new");
+             $('#myModal').modal();
+
 
         }
 
