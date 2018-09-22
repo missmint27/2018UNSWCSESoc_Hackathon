@@ -2,11 +2,20 @@ import React, { Component } from 'react'
 import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 import '../css/style.css';
+import Dialog from '../components/dialog'
 
 class homePage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { isOpen: true };
+  }
 
   onClick(type) {
-    console.log(type);
+    console.log(this.state)
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
   }
 
   render() {

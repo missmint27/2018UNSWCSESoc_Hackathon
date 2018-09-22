@@ -3,6 +3,11 @@ import { Helmet } from "react-helmet";
 import '../css/style.css';
 
 class loginPage extends Component {
+
+	onClick(){
+		window.location.href = "/home"
+	}
+
   render() {
     return (
       <div>
@@ -31,7 +36,7 @@ class loginPage extends Component {
             </form>
         	</div>
         <div class="form-group text-center" >
-            <button type="submit" class="btn btn-primary btn-lg log-button">Login</button>
+            <button type="submit" class="btn btn-primary btn-lg log-button" onClick={this.onClick.bind(this)}>Login</button>
 
         </div>
     	</div>
