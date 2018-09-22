@@ -31,17 +31,20 @@ body{
 }
 
 .layout{
-  width: 100%;
-  height: 810px;
+  width: 100vw;
+  height: 100vh;
   background-color: #cccccc;
 
 }
 .pgs{
   width:80%;
   height: 80%;
+  text-align: center;
   background-color: #ffffff;
   margin-top: 0%;
   margin-left: 10%;
+  border:1px solid #fff;
+  box-shadow: 5px 5px 5px #888888;
 }
 .layout-right{
   width: 78%;
@@ -93,7 +96,6 @@ body{
   height: 40%;
   width: 100%;
   background-color: #fff;
-  border:2px solid #fff;
 }
 .down-three{
   height: 20%;
@@ -104,12 +106,12 @@ body{
 .left-up{
   width: 100%;
   height: 60%;
+  border-left: 2px solid #999999;
 }
 .left-down{
   width: 100%;
   height: 40%;
   background-color: #fff;
-  border:2px solid #fff;
 }
 .up-two{
   display: inline-block;
@@ -127,35 +129,46 @@ body{
 .table-border{
   border:1px solid #666666;
 }
-.table-four{
+.table-four-left{
   width: 80%;
   height: 80%;
   margin-top: 5%;
-  margin-left: 10%;
+  float: left;
+}  
+.table-four-right{
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+  float: right;
 }     
 .table-six-vert{
   width: 60%;
   height: 80%;
-  margin-top: 8%;
   margin-left: 20%;
 }
-.table-six-heri{
-  width: 80%;
-  height: 80%;
+.table-six-heri-left{
+  width: 70%;
+  height: 70%;
   margin-top: 5%;
-  margin-left: 10%;
+  float: left;
+}
+.table-six-heri-right{
+  width: 70%;
+  height: 70%;
+  margin-top: 5%;
+  float: right;
 }
 .table-linefour{
   width: 80%;
   height: 50%;
   margin-top: 10%;
-  margin-left: 10%;
+  float: right;
 } 
 .table-eight{
   height: 80%;
   width: 80%;
   margin-top: 4%;
-  margin-left: 10%;
+  float: right;
 }
 .home-use{
   margin-left: 18%;
