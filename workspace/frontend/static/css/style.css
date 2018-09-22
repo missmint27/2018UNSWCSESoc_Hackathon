@@ -51,14 +51,117 @@ body{
 }
 .right-up{
   width: 100%;
-  height: 19%;
+  height: 25%;
 }
 .right-down{
-
+  width: 100%;
+  height: 75%;
 }
 .layout-left{
-  width: 21%;
+  width: 22%;
   height: 100%;
   display: inline-block;
   float: left;
 }
+.up{
+  display: inline-block;
+  float: left;
+  width: 16.666%;
+  height: 100%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+.corner{
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+  border:0.5px solid #fff;
+}
+.down{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.down-four{
+  height: 25%;
+  width: 100%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+.down-space{
+  height: 40%;
+  width: 100%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+.down-three{
+  height: 20%;
+  width: 100%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+.left-up{
+  width: 100%;
+  height: 60%;
+}
+.left-down{
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+.up-two{
+  display: inline-block;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.up-four{
+  width: 100%;
+  height: 25%;
+  background-color: #fff;
+  border:2px solid #fff;
+}
+/*-----------------*/
+.table-border{
+  border:1px solid #666666;
+}
+.table-four{
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+}     
+.table-six-vert{
+  width: 60%;
+  height: 80%;
+  margin-top: 8%;
+  margin-left: 20%;
+}
+.table-six-heri{
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.table-linefour{
+  width: 80%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 10%;
+} 
+.table-eight{
+  height: 80%;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+
+                  
